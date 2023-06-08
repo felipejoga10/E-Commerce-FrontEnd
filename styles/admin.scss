@@ -1,0 +1,24 @@
+// Base Config
+@import '~normalize.css/normalize.css';
+@import './base/colors.scss';
+@import './base/fonts.scss';
+@import './base/mixins.scss';
+
+//Libraries
+//https://www.primefaces.org/primeng/setup
+@import 'node_modules/primeicons/primeicons.css';
+@import 'node_modules/primeng/resources/themes/saga-blue/theme.css';
+@import 'node_modules/primeng/resources/primeng.min.css';
+
+//https://www.primefaces.org/primeflex/gridsystem
+@import '/node_modules/primeflex/primeflex.css';
+@import 'node_modules/animate.css/animate.css';
+
+@import './base/configuration.scss';
+
+//Shared
+@import './apps/admin/shell.scss';
+@import './apps/admin/dashboard.scss';
+
+//Libs
+@import './libs/users/users.scss';

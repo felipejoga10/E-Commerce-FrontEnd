@@ -1,0 +1,42 @@
+// Base Config
+@import '~normalize.css/normalize.css';
+@import './base/colors.scss';
+@import './base/fonts.scss';
+@import './base/mixins.scss';
+
+// https://getbootstrap.com/docs/5.2/getting-started/download/
+//@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Libraries
+//https://www.primefaces.org/primeng/setup
+@import 'node_modules/primeicons/primeicons.css';
+@import 'node_modules/primeng/resources/themes/saga-blue/theme.css';
+@import 'node_modules/primeng/resources/primeng.min.css';
+
+//https://www.primefaces.org/primeflex/gridsystem
+@import '/node_modules/primeflex/primeflex.css';
+@import 'node_modules/animate.css/animate.css';
+
+@import './base/configuration.scss';
+
+//Shared
+@import './apps/shop/shared/header.scss';
+@import './apps/shop/shared/footer.scss';
+@import './apps/shop/shared/nav.scss';
+
+//Pages
+@import './apps/shop/pages/home-page.scss';
+@import './apps/shop/pages/products-list-page.scss';
+
+//Libs
+@import './libs/products/products.scss';
+@import './libs/orders/orders.scss';
+@import './libs/users/users.scss';
+@import './libs/ui/ui.scss';
+
+.container {
+  width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: var(--surface-100);
+}
